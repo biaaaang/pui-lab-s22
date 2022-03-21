@@ -84,7 +84,7 @@ function onLoad() {
                             .style.display = "block";
                 }
                 else {
-                    localStorage.setItem("savevdAnimal", JSON.stringify(animal));
+                    localStorage.setItem("savedAnimal", JSON.stringify(animal));
                     document.getElementById("button-storage")
                             .style.display = "none";
                     document.getElementById("button-action-text").textContent = "Saved!";
