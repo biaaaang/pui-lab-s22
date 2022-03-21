@@ -88,7 +88,7 @@ function onLoad() {
                     document.getElementById("button-storage")
                             .style.display = "none";
                     document.getElementById("button-action-text").textContent = "Saved!";
-                    document.getElenmentById("button-action-text")
+                    document.getElementById("button-action-text")
                             .style.display = "block";
                 }
             });
