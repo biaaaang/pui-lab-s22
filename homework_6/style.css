@@ -1,0 +1,470 @@
+#cmu_logo {
+    position: absolute;
+    width: 386px;
+    height: 252px;
+    left: 144px;
+    top: 160px;
+}
+
+.title {
+    position: absolute;
+    width: 700px;
+    height: 100px;
+    left: 3px;
+    top: 442px;
+
+    font-family: "Futura Std";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.login_window {
+    position: absolute;
+    width: 415px;
+    height: 458px;
+    left: 890px;
+    top: 158px;
+    
+    background: #8F1F33;
+}
+
+.login_title {
+    position: absolute;
+    left: 31.08%;
+    right: 32.53%;
+    top: 14.41%;
+    bottom: 72.93%;
+
+    font-family: "Futura Std";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.input_frame {
+    position: absolute;
+    left: 5.78%;
+    right: 5.54%;
+    top: 37.12%;
+    bottom: 36.9%;
+}
+
+#ID_label {
+    position: absolute;
+    left: 0%;
+    right: 69.57%;
+    top: 3.36%;
+    bottom: 72.27%;
+
+    font-family: "Futura Std";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#ID_input {
+    position: absolute;
+    left: 38.86%;
+    width: 50%;
+    top: 0%;
+    bottom: 69.75%;
+
+    background: #FFFFFF;
+}
+
+#password_input {
+    position: absolute;
+    left: 38.86%;
+    width: 50%;
+    top: 69.75%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+}
+
+#password_label {
+    position: absolute;
+    left: 1.9%;
+    right: 71.2%;
+    top: 72.27%;
+    bottom: 3.36%;
+
+    font-family: "Futura Std";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+button {
+    position: absolute;
+    left: 36%;
+    right: 36%;
+    top: 75%;
+    bottom: 18.56%;
+    width: 28%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    height: 146px;
+    background-color: #8F1F33;
+}
+
+.logout_button {
+    position: absolute;
+    width: 165.7px;
+    height: 32px;
+    right: 0px;
+    top: 2px;
+    
+    font-family: "Futura Std";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    
+    color: #FFFFFF;
+}
+
+.cart_page {
+    position: absolute;
+    width: 165.7px;
+    height: 32px;
+    right: 100px;
+    top: 2px;
+    
+    font-family: "Futura Std";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    
+    color: #FFFFFF;
+}
+
+.home_page {
+    position: absolute;
+    width: 165.7px;
+    height: 32px;
+    right: 200px;
+    top: 2px;
+    
+    font-family: "Futura Std";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    
+    color: #FFFFFF;
+}
+
+#label_search {
+    position: absolute;
+    width: 404.38px;
+    height: 70px;
+    left: 29.59px;
+    top: 8%;
+    font-family: "Futura Std";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+#search_bar {
+
+    
+    position: absolute;
+    left: 24%;
+    right: 24%;
+    top: 8%;
+    height: 3%;
+    width: 50%;
+
+    background: #CACACA;
+}
+
+#search_button {
+    position: absolute;
+    left: 75%;
+    top: 8%;
+    width: 8%;
+    height: 3%;
+}
+
+.left {
+    position: absolute;
+    width: 213px;
+    height: 750px;
+    left: 60px;
+    top: 200px;
+}
+
+.right {
+    position: absolute;
+    width: 950px;
+    height: 797px;
+    left: 323px;
+    top: 227px;
+}
+
+.filter_title {
+    font-family: "Futura Std";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+ul li {
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+th {
+    background: #8F1F33;
+    color: white;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    height: 80px;
+}
+
+.course_name {
+    width: 300px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.course_id {
+    width: 150px;   
+}
+
+.units {
+    width: 90px; 
+}
+
+.hours {
+    width: 90px; 
+}
+
+.description {
+    width: 400px;
+}
+
+.details {
+    position: absolute;
+    width: 1060px;
+    height: 800px;
+    left: 155px;
+    top: 212px;
+}
+
+h1 {
+    font-family: "Futura Std";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: left;
+
+    color: #8F1F33;
+}
+
+h2 {
+    font-family: "Futura Std";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.section {
+    width: 120px;
+}
+
+.instructor {
+    width: 120px;
+}
+
+.day {
+    width: 120px;
+}
+
+.time {
+    width: 300px;
+}
+
+.waitlist {
+    width: 90px;
+}
+
+.max_enroll {
+    width: 90px;
+}
+
+.location {
+    width: 120px;
+}
+
+.status {
+    width: 120px;
+}
+
+.operation {
+    width: 120px;
+    height: 30px;
+    cursor:pointer;
+}
+
+td.operation {
+    background: lightgrey;
+}
+
+.evaluation {
+    padding: 20px;
+    border-style: solid;
+    border-color: #8F1F33;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: #000000;
+}
+
+.schedule {
+    position: absolute;
+    width: 1200px;
+    height: 120px;
+    left: 140px;
+    top: 200px;
+}
+
+.time_schedule {
+    position: absolute;
+    width: 800px;
+    left: 140px;
+    top: 300px;
+}
+
+.course_list {
+    position: absolute;
+    width: 240px;
+    left: 960px;
+    top: 300px;
+}
+
+#time th {
+    width: 200px;
+}
+
+#course_list  th {
+    width:330px;
+}
+
+td.course_label {
+    height: 120px;
+    background: pink;
+}
+
+
+.time_schedule td {
+    height:60px;
+    width: 100px;
+}
+
+#PUI1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 180px;
+    top: 90px;
+    text-align: center;
+    background: pink;
+    color: white;
+    font-size: 15px;
+}
+
+#PUI2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 180px;
+    top: 192px;
+    text-align: center;
+    background: pink;
+    color: white;
+    font-size: 15px;
+}
+
+#PUI3 {
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    left: 382px;
+    top: 90px;
+    text-align: center;
+    background: pink;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+

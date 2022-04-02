@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Courses List</title>
+    <meta charset="UTF-8">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- javascript -->
+    <script src="details.js" type="text/javascript"></script>
+</head>
+
+<body onload="onLoad()">
+    <header>
+        <a href="index.html" class="logout_button">Logout</a>
+        <a href="list.html" class="home_page">Home</a>
+        <a href="cart.html" class="cart_page">My Courses</a>
+        <a for="search_bar" id="label_search" href="list.html">COURSES</a>
+        <input id="search_bar" type="text">
+        <button id="search_button">Search</button> 
+    </header>
+
+    <div class="details">
+        <h1>05630: Programming User Interfaces</h1>
+        <h2 class="sections">Sections</h2>
+        
+        <!--Sections table-->
+        <table id="section_table" >
+            <tr>
+                <th class="section">Section</th>
+                <th class="instructor">Instructor</th>
+                <th class="day">Day</th>
+                <th class="time">Time</th>
+                <th class="waitlist">Waitlist</th>
+                <th class="max_enroll">Max enroll</th>
+                <th class="location">Location</th>
+                <th class="status">Status</th>
+                <th class="operation_row">Operation</th>
+            </tr>
+            <tr>
+                <td>Lecture</td>
+                <td>Hudson</td>
+                <td>MW</td>
+                <td>08:35AM - 09:55AM</td>
+                <td>-</td>
+                <td>0</td>
+                <td>NSH 1305</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        
+        <!--Evaluation-->
+        <h2>Course Evaluation</h2>
+        <h3>2021 Fall</h3>
+        <p class="evaluation"> 
+            <b>Enrollment:</b> 70<br>
+            <b>Hrs Per Week:</b> 10.94<br>
+            <b>Interest:</b> 3.11<br>
+            <b>Explain course requirements:</b> 3.49<br>
+            <b>Importance of subject:</b> 3.66<br>
+            <b>Overall teaching:</b> 3.96<br>
+            <br>
+            <b>Overall course:</b> 3.62</p>
+    </div>
+    
+</body>
+
+</html>
