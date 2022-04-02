@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "week7_lab",
+    "public": "homework_6a",
     "ignore": [
       "firebase.json",
       "**/.*",
